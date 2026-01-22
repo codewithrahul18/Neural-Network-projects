@@ -56,5 +56,3 @@ def predict(data: PatientData):
         "diagnosis": class_name,
         "class_id": int(prediction[0])
     }
-# python -m uvicorn main:app --reload
-# python -m uvicorn main:app --reload --port 8001
